@@ -1,6 +1,6 @@
 // Initialize Supabase
-const supabaseUrl = 'https://your-project-id.supabase.co';
-const supabaseKey = 'your-public-anon-key';
+const supabaseUrl = 'https://emfjdirzyaffqsssmmyt.supabase.co';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVtZmpkaXJ6eWFmZnFzc3NtbXl0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzMzNTE0MTUsImV4cCI6MjA0ODkyNzQxNX0.8BbHKcE22eFoOvj721CDiGZuj0WkCS3At7ku1fZ29S4';
 const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
 // Handle registration
